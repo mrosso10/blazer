@@ -17,7 +17,7 @@
     <% end %>
 
     <% @bind_vars.each_with_index do |var, i| %>
-      <%= label_tag var, var %>
+      <%= label_tag var, I18n.t('blazer_variables.' + var) %>
       <% if (data = @smart_vars[var]) %>
         <%= select_tag var, options_for_select([[nil, nil]] + data, selected: params[var]), style: "margin-right: 20px; width: 200px; display: none;" %>
         <script>
