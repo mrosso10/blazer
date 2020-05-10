@@ -8,7 +8,7 @@
 //= require ./moment
 //= require ./moment-timezone-with-data
 //= require ./daterangepicker
-//= require ./Chart.js
+//= xrequire ./Chart.js
 //= require ./chartkick
 //= require ./ace
 //= require ./Sortable
